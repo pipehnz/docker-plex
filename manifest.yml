@@ -1,18 +1,18 @@
-image: jaymoulin/plex:$FULLVERSION
+image: pipehnz/plex:$FULLVERSION
 manifests:
   -
-    image: jaymoulin/plex:$VERSION-armhf
+    image: pipehnz/plex:$VERSION-armhf
     platform:
       architecture: arm
       variant: v7
       os: linux
   -
-    image: jaymoulin/plex:$VERSION-amd64
+    image: pipehnz/plex:$VERSION-amd64
     platform:
       architecture: amd64
       os: linux
   -
-    image: jaymoulin/plex:$VERSION-aarch64
+    image: pipehnz/plex:$VERSION-aarch64
     platform:
       architecture: arm64
       os: linux
